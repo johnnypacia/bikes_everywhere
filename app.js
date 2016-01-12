@@ -36,9 +36,25 @@ app.use(function(req, res, next){
 
 //CRUD
 
+//landing page
 app.get('/', function(req, res){
 	res.render('index');
 });
+
+//calendar page
+
+app.get('/calendar', function(req, res){
+
+	res.render('calendar');
+});
+
+app.get('/events', function(req, res){
+	db.collection('events').find({}).toArray(function (err, result){
+		res.send(result);
+	});
+	
+});
+
 
 
 app.listen(process.env.PORT || 3000);
