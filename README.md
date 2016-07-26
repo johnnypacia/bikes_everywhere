@@ -5,7 +5,7 @@
 ## Deliverables
 
 - Work with a partner to tackle the prompt below.
-    - You'll need to set up and work with a Mongo Database
+    - You'll need to set up and work with a Mongo Databas e
     - You'll be creating an Express app that includes a RESTful API for CRUDding resources in your database
     - You'll use AJAX to CRUD resources without refreshing the page
 - Each member of your team should be involved in each part of the application and should be able to explain why any piece of code was written/what its purpose is. Consider pair programming.
